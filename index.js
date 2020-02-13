@@ -3,7 +3,7 @@ const server = express();
 server.use(express.json());
 
 server.get("/", (req,res) => {
-    const bands = [{id:"1"}, {name:"pantera"}];
+    const bands = [{id:1}, {name:"pantera"}];
     res.status(200).json(bands);
  
 });
